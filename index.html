@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <img src="your-resized-image.png" id="background" alt="background">
+
+      <!-- Flames -->
+      <img src="flame.gif" class="flame" style="top: 390px; left: 580px;">
+      <img src="flame.gif" class="flame" style="top: 390px; left: 620px;">
+
+      <!-- Envelope -->
+      <img src="envelope.png" id="envelope" onclick="openCard()">
+
+      <!-- Birthday Card -->
+      <div class="card-container">
+        <img src="card-front.png" id="card-front" onclick="flipCard()" class="hidden">
+        <img src="card-back.png" id="card-back" class="hidden">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
